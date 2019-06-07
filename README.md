@@ -1,10 +1,10 @@
-**本資料のURL**　https://github.com/hifivemania/pwa_handson_docs
+**本資料のURL**　https://github.com/hifivemania/pwa_handson_docs_ncmb
 
 ## プロジェクトベースのダウンロード
 
 ハンズオン用のプロジェクトベースは以下のURLでダウンロードできます。ダウンロードしたら解凍してください。
 
-https://github.com/hifivemania/pwa_handson
+https://github.com/hifivemania/pwa_handson_ncmb
 
 解凍後、そのフォルダの中に以下のコマンドを実行します。Node.jsを事前にインストールしてください（※バージョンは8以上を使ってください）。
 
@@ -26,7 +26,7 @@ Webサーバは http://localhost:3000/ または http://127.0.0.1:3000/ でア�
 
 ## ファイル構成について
 
-サンプルのプロジェクトは以下のような構成になっています（一部）。Monacaの場合は public を www と読み替えてください。
+サンプルのプロジェクトは以下のような構成になっています（一部）。
 
 ```
 ├── keygen.js（WebPush用のキーファイルを生成します）
@@ -45,6 +45,8 @@ Webサーバは http://localhost:3000/ または http://127.0.0.1:3000/ でア�
 │       │   │   └── bootstrap.min.css
 │       │   └── js
 │       │       └── bootstrap.bundle.min.js
+│       ├── ncmb（NCMBを扱うライブラリです）
+│       │   ├── ncmb.min.js
 │       ├── hifive
 │       │   ├── ejs-h5mod.js（テンプレートエンジンejsのファイルです）
 │       │   ├── h5.css（hifive用のCSSです）
@@ -69,11 +71,12 @@ Webサーバは http://localhost:3000/ または http://127.0.0.1:3000/ でア�
 
 ### 第2部　Todoアプリのオフライン化
 
-- [第5章 Todoの表示処理をオフライン対応させる](5.md)
-- [第6章 Todoの投稿処理をオフライン対応](6.md)
+- [第5章 NCMBの設定](5.md)
+- [第6章 Todoの表示処理をオフライン対応させる](6.md)
+- [第7章 Todoの投稿処理をオフライン対応](7.md)
 
 ### 第3部 WebPush通知を体験する
 
-- [第7章 Webリモートプッシュ通知を実装する](7.md)
+- [第8章 Webリモートプッシュ通知を実装する](8.md)
 
 各部は独立していますので、第2部から体験も可能です。では[第1章 アプリの説明](1.md)に進みましょう。
